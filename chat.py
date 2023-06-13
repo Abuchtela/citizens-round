@@ -4,10 +4,10 @@ import streamlit as st
 import os
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
-from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
 
 # load from disk
-index = GPTSimpleVectorIndex.load_from_disk('index.json')
+index = GPTVectorStoreIndex.load_from_disk('index.json')
 
 # while True:
 question = st.text_input("Question", placeholder="Enter your question here")
