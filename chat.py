@@ -1,6 +1,5 @@
 import streamlit as st
-
-
+from llama_index import StorageContext, load_index_from_disk
 import os
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
