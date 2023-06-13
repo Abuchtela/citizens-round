@@ -1,0 +1,152 @@
+## Summary
+
+Gitcoin is the world’s largest implementer of quadratic funding. We have run 105 quadratic funding rounds, helped fund over 3,700 projects, and grown ecosystems like Uniswap, Polygon, and ENS. Yet, we aren’t currently using quadratic funding ourselves. With the recent launch of the Allo protocol, Gitcoin should be one of the first ecosystems to use the protocol to fund its shared needs.
+
+This proposal is to pilot a series of quadratic funding rounds for rewarding efforts supporting the Gitcoin Community, specifically by [Gitcoin Citizens](https://gitcoin.notion.site/DAO-Citizen-Resource-Hub-7b83f9b5ca06487f84e0142d0180970a). Citizens are value-aligned community members who are eager to contribute their time and skills in service of the DAO. Running these rounds will lower the barrier of entry for contributing to the DAO, determine what the community values most, and help test (dogfood) the Allo protocol.
+
+For this we are requesting a total of $95K in GTC from the Gitcoin treasury, more details below.*
+
+## Abstract
+
+Through using our protocol and products, we’ll be able to better understand what works and what could be improved from both a funding and technology perspective.
+
+In particular, we’ll be able to test two different approaches to quadratic funding: normal QF and retroQF. Normal QF (the kind we see in Grants Rounds) can fund both completed and planned work, while RetroQF exclusively funds work which has already had an observable impact. Because of this, RetroQF may be better at distributing funds according to the value actually created by a contribution but is not suited to situations where contributors can’t afford to wait for compensation. We will try both methods to gain information about which is better suited to the unique needs of our community.
+
+By running different styles of rounds repeatedly and quickly, we’ll be able to gain valuable insight into how to best fund grantees, improve our products, and empower our community. We will also identify what contributions our community finds valuable so that in subsequent rounds people have more information when choosing what to work on.
+
+It is also our hope, that by running these rounds, we can reward Gitcoin Citizens like[ Carl who evaluated Grantee Impact](https://twitter.com/carl_cervone/status/1616792961412640772),[ Carlos who created a video guide for donating to Gitcoin on mobile](https://twitter.com/web3beach/status/1617509775415324672),[ Jon Ruth who spent countless hours answering questions in discord, and more](https://twitter.com/krrisis/status/1616637568992296960?s=20) (these are cherry-picked examples of many voluntary contributions).
+
+## Motivation
+
+This proposal is motivated by[ recent posts from Scott Moore](https://gov.gitcoin.co/t/gitcoin-building-gitcoin-using-quadratic-funding-for-subtraction/13015)[ and Kevin Olsen](https://gov.gitcoin.co/t/refactoring-gitcoin-what-falls-between-the-cracks/13026) encouraging Gitcoin to build Gitcoin using QF. A huge thank you to them!
+
+There are three main reasons why we should try this.
+
+1. To gain experience using quadratic funding and the allo protocol to build our own ecosystem, demonstrate effectiveness, and identify areas for improvement.
+
+In particular, many Gitcoin Citizens will experience for the first time what it’s like to create a grant and raise funding. By dogfooding, we will build empathy for our users and increase our ability to help them. For example, if grantees face inconsistency in how much funding they receive each round we will understand this better by experiencing it ourselves.
+
+2. To experiment with a supplementary budgeting process that has greater accountability and less administrative overhead.
+
+QF creates greater accountability by requiring the support of the community which requires being transparent about what you’re working on.
+
+Further, there have been many recent conversations about how demanding the quarterly budgeting process currently is. One of the flavors of funding we will experiment with is retroactive quadratic funding. This method does not require extensive proposals, only proof that valuable work has been done.
+
+3. To increase community engagement and participation at all levels of Gitcoin from contribution to governance
+
+QF facilitates inclusion of emerging talents within the Gitcoin community by reducing the barriers to entry. This program enables individuals to receive payment from the DAO without the need to be hired by a workstream. By providing funding quickly, regularly, and with short feedback loops, we expect to see far greater participation from Gitcoin Citizens to support the community itself and in the long run to support the development of Gitcoin itself.
+
+Moreover, QF and especially retro QF can recognize the value of contributions that benefit Gitcoin in ways that aren’t traditionally compensated. This may, for example, include well-considered comments in our governance forum that lead to better governance practices.
+
+## Specifications:
+
+We expect to run three quadratic funding rounds on the Grants Stack. After each round we will evaluate the results, survey the community, and complete a post-mortem. This is our current best approximation of timing:
+
+* The first round will be retroQF and run immediately after the Gitcoin Beta Rounds in Mid May to set the tone for Citizen engagement. We hope this will also encourage increased engagement during the Beta rounds to help make them as successful as possible.
+* The second round will run Mid June and will be a normal quadratic funding round. This will be a great dogfooding round because this is the type of round our partners are used to running. It will also provide us a good basis for comparing the effectiveness of retroQF.
+* The third round will be about a month after the second and the exact format will depend on the results of the first two rounds.
+
+**Milestones & Timeline:** 
+
+| Phase      | Task                                             | Date        |
+|------------|--------------------------------------------------|-------------|
+| Phase I    | Send the Draft to stakeholders                   | March 09th  |
+|            | Validate assumptions with stakeholders            | March 17th  |
+|            | Draft posted on the forum                         | March 24th  |
+|            | Community feedback session                        | March 24-28 |
+|            | Update and move to snapshot                       | March 29th  |
+| Phase II   | Round Preparation and Set-Up                      | April 1 - May 15 |
+|            | Gitcoin Citizens Round #1                         | May 16 - 30 |
+|            | Round post mortem                                 | June 1     |
+| Phase III  | Gitcoin Citizens Round #2                         | June 15?   |
+|            | Round post mortem                                 | June 30    |
+|            | Gitcoin Citizens Round #3 (during a round)        | July 15?   |
+|            | Post-project evaluation form (AAR) posted         | July 30th  |
+
+
+Note: the exact and final timing will to be confirmed
+
+**Budget**
+
+Cost of Matching Pool Funds:
+
+* $25k per round x 3 rounds = $75k (requested in GTC)*
+
+Staffing:
+  * $20K covering 3 part time contributors working over a period of 20 weeks, requested in GTC.*
+
+| Name  | PI       | PII      | PIII     | 
+|-------|----------|----------|----------|
+| Umar  | 10% FTE (4 weeks)  | 10% FTE (8 weeks) | 10% FTE (8 weeks) |
+| Shawn | 10% FTE (4 weeks)  | 10% FTE (8 weeks) | 10% FTE (8 weeks) |
+| Kris  | 10% FTE (4 weeks)  | 10% FTE (8 weeks) | 10% FTE (8 weeks) |
+
+
+
+
+**Note: After each round we will evaluate the results to determine how we want to adjust for the next round. Hours of contributors are also based on our best guesses and will be validated as we cycle forward. Contributors will keep track of their actual hours, which can be shared with CSDO and Stewards on request. The fact that this is a new experiment may mean that after two rounds we send funding back to the DAO if we decide not to run a third round or request additional funding to expand the round.*
+
+**Funding Eligibility**
+
+The range of contributions that could be funded this way is purposefully broad and up to the community to define in the long term. However, for the initial rounds we encourage a high focus on community engagement-focused work contributing directly to Gitcoin’s [‘most important things’](https://gov.gitcoin.co/t/s17-musing-gitcoins-most-important-thing/12875) and our [Purpose and Essential Intents.](https://gov.gitcoin.co/t/update-gitcoindaos-adopted-purpose-and-essential-intents/10984). Without our community there is no reason for Gitcoin to exist, we are in service of our users, so we want to reward the people who support our grantees and donors through straightforward educational content, data analysis, and support-oriented initiatives.
+
+More detailed criteria will be communicated before the start of the actual round(s).
+
+**Retroactive Funding.**
+
+Retroactive funding reduces risk and barriers to entry. It takes the guesswork out of deciding what will be valuable to fund because the impact is observable. Anyone can simply work on what they want to work on and they will be funded if the community finds it valuable. For this reason, it is important for contributors to be public about what they’re working on and for us to run frequent rounds with quick feedback loops.
+
+For the first round we imagine a high focus on grassroots projects run by individuals, our [Gitcoin Citizens](https://gitcoin.notion.site/DAO-Citizen-Resource-Hub-7b83f9b5ca06487f84e0142d0180970a). Contributions which have already been compensated (for example through a WS) will not be eligible.
+
+Starting with retroactive funding showcases to the community how we believe Gitcoin can fund Gitcoin. Below you can find some examples of contributions that the core team would submit (or would invite the creators to submit) and we imagine to be funded this way:
+
+* [Grantee Impact Evaluations](https://twitter.com/carl_cervone/status/1616792961412640772) by @ccerv1 ,
+* [Video Guide to Donating to Gitcoin on Mobile](https://twitter.com/web3beach/status/1617509775415324672) by @carlosjmelgar,
+* [Providing support and answering user questions in Discord](https://twitter.com/krrisis/status/1616637568992296960?s=20), by @jon-spark-eco,
+* [A BULL/BEAR case for Gitcoin/GTC in 2023](https://gov.gitcoin.co/t/a-bull-bear-case-for-gitcoin-gtc-in-2023/12442) by @a33titude,
+* [Infinite Garden Coloring Book by Colton, Octavian, Owocki and Aya](https://twitter.com/mettahead/status/1633605871560212481) by @Colton,
+* Stewards we want to give (extra) compensation because they went above and beyond
+* Comment who you think deserves retroQF below!
+
+After the first round, we hope to see more proactive initiatives and will experiment together with our community on what is the ideal process to make this as effective as possible.
+
+## Benefits
+
+This novel mechanism is designed to fund additional Gitcoin community efforts and development of our protocol itself, but we see the following additional benefits:
+
+* Creates ways for the community way to engage and potentially be compensated
+* Encourages new community members to begin getting involved in Gitcoin
+* Provides a flexible contributor pool that is independent of fixed “hired” contributors
+* Enables dogfooding and rapid iteration for Grants Stack and Passport (including runbook updates)
+* Incentivizes Citizens to provide high quality work and to publicly share it
+* Lowers the barrier of entry and provide better scalability
+* Increases individual autonomy
+* Can be used to make a big splash / highlight / announce the efficacy self-serve model
+
+## Drawbacks - & considerations
+
+This pilot could encounter a number of issues or have unintended consequences. Some considerations may include:
+
+* The community could reward non-strategic or lower value work.
+* The process could compensate at greater than market rates for popular deliverables.
+* Contributors could start to expect that all activities will be monetarily rewarded and try to game the system - over time this could actually decrease spontaneity and undermine the positive intent of volunteer activity
+* Not running a round alongside the Beta Round could result in lower participation than if we were part of the main event
+
+As part of the pilot work, here is a list of are things we intend to learn through this process:
+
+* Does the community and the DAO assign different values to deliverables?
+* How much DAO capacity does it take to support these rounds?
+* What impact could a public comment / review have on the efficacy of quadratic voting?
+* Do we have a need for the verification of deliverables (sponsors)?
+* Do we need a post-vote dispute resolution process?
+* How do we authenticate grantees & addresses (fraudulent proposals of real work)?
+* Can we have an open nomination / always on funding?
+* Validate how much time is required to prep for, run, and follow up the round
+* Can PGF support off-cycle self-service rounds - how successful will off cadence rounds be?
+
+**Success measures:**
+
+* A GCP proposal has been made to the community and has been voted upon
+* Three funding rounds have been executed & lessons learned have been captured
+* Assets have been created to facilitate the rounds
+* A project close out has been written with recommendations on if/how to proceed
