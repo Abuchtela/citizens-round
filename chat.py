@@ -15,5 +15,5 @@ question = st.text_input("Question", placeholder="Enter your question here")
 
 if question != "":
     response = query_engine.query(question)
-    display = "\n" + "\n**" + question + "**\n" + str(response)
+    display = "\n" + str(response)
     st.markdown(display)
