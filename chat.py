@@ -20,7 +20,7 @@ st.markdown("Gitcoin Citizens Round #1 is **[live](https://explorer.gitcoin.co/#
             Donations open until June 27th 23:59 UTC")
 
 # while True:
-question = st.text_input("Question", placeholder="Enter your question here")
+question = st.text_input("Ask a question below to learn more about the round and the grantees:", placeholder="Enter your question here")
 
 if question != "":
     response = query_engine.query(question)
