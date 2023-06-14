@@ -1,5 +1,5 @@
 import streamlit as st
-from llama_index import StorageContext, load_index_from_disk
+from llama_index import StorageContext, load_index_from_storage
 import os
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
@@ -7,7 +7,7 @@ from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
 
 # load from disk
 #index = GPTVectorStoreIndex.load_from_disk('index.json')
-index = load_index_from_disk(StorageContext.from_defaults(persist_dir="./storage"))
+index = load_index_from_storage(StorageContext.from_defaults(persist_dir="./storage"))
 query_engine = index.as_query_engine()
 
 # while True:
