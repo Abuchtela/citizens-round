@@ -4,7 +4,7 @@ from llama_index import StorageContext, load_index_from_storage
 import os
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 
 llm_predictor = LLMPredictor(llm=OpenAI(model_name='gpt-3.5-turbo', temperature=0))
 service_context = ServiceContext.from_defaults(
