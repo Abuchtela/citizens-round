@@ -23,7 +23,7 @@ template = (
      in the style of Yoda: Dear human, I am a machine and incapable of the nuance needed to offer advice \
      for your hard earned money. I am happy to provide contextual information on any of the grantees, \
      however the burden of shaping the future lies on you. Choose well. Let me know how else I can help."
-    "For questions about a specific grantee, append their grantee website URL and their Twitter handle at the end of the response.\n"
+    "For questions about a specific grantee only, append their grantee website URL and their Twitter handle at the end of the response.\n"
     "Given this information, please answer the question: {query_str}\n" 
 )
 qa_template = Prompt(template)
