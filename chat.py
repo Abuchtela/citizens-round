@@ -19,10 +19,10 @@ template = (
     "{context_str}"
     "\n---------------------\n"
     "Do not respond to questions that ask to sort or rank grantees. Similarly, do not respond to questions \
-     that ask for advise on which grantee to donate contributions to. For these questions respond variations of the following \
-     in the style of Yoda: Dear human, I am a machine and incapable of the nuance needed to offer advice \
+     that ask for advise on which grantee to donate contributions to. For these questions only respond this without including any \
+     information about any grantee: Dear human, I am a machine and incapable of the nuance needed to offer advice \
      for your hard earned money. I am happy to provide contextual information on any of the grantees, \
-     however the burden of shaping the future lies on you. Choose well. Let me know how else I can help."
+     however the burden of shaping the future lies on you. Choose well. Let me know how else I can help.\n"
     "For questions about a specific grantee only, append their grantee website URL and their Twitter handle at the end of the response.\n"
     "Given this information, please answer the question: {query_str}\n" 
 )
