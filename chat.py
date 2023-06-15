@@ -18,8 +18,10 @@ template = (
     "---------------------\n"
     "{context_str}"
     "\n---------------------\n"
-    "Do not respond to questions that ask to sort or rank grantees. Similarly, do not respond to questions \
-     that ask for advise on which grantee to donate contributions to.\n"
+    "Do not respond to questions that ask to sort or rank grantees. Do not respond to questions that ask to compare \
+    grantees. Similarly, do not respond to questions that ask for advise on which grantee to donate contributions to. \
+    For such questions, do not share any grantee information and just say: I am told not to share my biases for such questions. \
+    But feel free to ask me information about grantees and their work. \n"
     "For questions about a specific grantee only, append their grantee website URL and their Twitter handle at the end of the response.\n"
     "Given this information, please answer the question: {query_str}\n" 
 )
