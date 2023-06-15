@@ -1,4 +1,5 @@
 import streamlit as st
+from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage
 import os
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
