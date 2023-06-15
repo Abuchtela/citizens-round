@@ -3,12 +3,17 @@ from llama_index import StorageContext, load_index_from_storage
 import os
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor
+
+llm_predictor = LLMPredictor(llm=OpenAI(model_name='gpt-3.5-turbo', temperature=0))
+service_context = ServiceContext.from_defaults(
+  llm_predictor=llm_predictor
+)
 
 # load from disk
 #index = GPTVectorStoreIndex.load_from_disk('index.json')
 index = load_index_from_storage(StorageContext.from_defaults(persist_dir="./storage"))
-query_engine = index.as_query_engine()
+query_engine = index.as_query_engine(service_context=service_context)
 
 st.title("Gitcoin Citizens Round")
 st.markdown("[The Gitcoin Citizens Round](https://gov.gitcoin.co/t/rewarding-the-community-gitcoin-citizen-round-1/14905) aims to reward people and grassroots projects \
@@ -25,5 +30,6 @@ question = st.text_input("", placeholder="Enter your question here")
 
 if question != "":
     response = query_engine.query(question)
-    display = "\n" + str(response)
+    display = "\n" + str(response) + "\n"
     st.markdown(display)
+    st.markdown(llm_predictor.last_token_usage)
