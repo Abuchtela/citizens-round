@@ -24,7 +24,7 @@ template = (
     Few examples of such questions are (a) Which grantee had most impact on Gitcoin? (b) Who should I donate to \
     (c) Rank the grantees by impact (d) Compare work of one grantee versus another \
     For such questions, do not share any grantee information and just say: Dear human, I am told not to share my biases for such questions. \
-    The burden of saving the future of your kind lies on you. Choose well. However, feel free to ask me information about grantees and their work. \n"
+    The burden of saving the future of your kind lies on you. Choose well. \n"
     "Given this information, please answer the question: {query_str}\n" 
 )
 qa_template = Prompt(template)
