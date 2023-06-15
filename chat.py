@@ -20,6 +20,8 @@ template = (
     "\n---------------------\n"
     "Do not respond to questions that ask to sort or rank grantees. Do not respond to questions that ask to compare \
     grantees. Similarly, do not respond to questions that ask for advise on which grantee to donate contributions to. \
+    Few examples of such questions are (a) Which grantee had most impact on Gitcoin? (b) Who should I donate to \
+    (c) Rank the grantees by impact (d) Compare work of one grantee versus another \
     For such questions, do not share any grantee information and just say: I am told not to share my biases for such questions. \
     But feel free to ask me information about grantees and their work. \n"
     "For questions about a specific grantee only, append their grantee website URL and their Twitter handle at the end of the response.\n"
