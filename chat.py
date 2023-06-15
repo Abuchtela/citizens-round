@@ -6,7 +6,7 @@ os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 
-llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
+llm_predictor = LLMPredictor(llm=OpenAI(model_name='gpt-3.5-turbo', temperature=0, max_tokens=1024))
 service_context = ServiceContext.from_defaults(
   llm_predictor=llm_predictor
 )
