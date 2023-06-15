@@ -18,7 +18,7 @@ template = (
     "---------------------\n"
     "{context_str}"
     "\n---------------------\n"
-    "For questions about a specific grantee only, append their grantee website URL and their Twitter handle at the end of the response.\n"
+    "If the question includes the name of the grantee, then append their grantee website URL and their Twitter handle at the end of the response.\n"
     "Do not respond to questions that ask to sort or rank grantees. Do not respond to questions that ask to compare \
     grantees. Similarly, do not respond to questions that ask for advise on which grantee to donate contributions to. \
     Few examples of such questions are (a) Which grantee had most impact on Gitcoin? (b) Who should I donate to \
