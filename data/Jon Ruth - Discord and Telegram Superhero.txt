@@ -1,0 +1,20 @@
+# Name of the grantee: Jon Ruth - Discord and Telegram Superhero
+
+## Grantee website: https://gitcoin.co
+
+## Grantee Twitter handle: @jhruth
+
+## Created on: June 1st, 2023
+
+## Grantee Description
+
+Before I joined the Gitcoin team, I was a volunteer Discord and Telegram moderator during the great POAP farmer battles of the Alpha rounds. I spent night and day in Discord and various Telegram groups battling the POAP farmers and greeting the many new community members. I did this because I saw the need for someone to respond to the hundreds of messages coming in so that the Gitcoin core team could focus on running the round and improving the protocol.
+This tweet from Kris has a few screenshots and suggests that not all superheroes wear capes.
+
+In addition to the work described above, I also recently posted this on the governance forum: Reviewing Gitcoin Grantee Impact - Momus.eth & gitcoinreviews.co This post talks about the work I am doing as a representative of the Momus Collective. We are building a review tool for assessing the impact grants are having with the funds received from Gitcoin grants rounds. This work ties closely with the DAOs "Most Important Things" which includes the Grants Stack. We hope Gitcoin may integrate this review protocol with the Grants Stack as the project evolves.
+Here is a poem ChatGPT wrote about battling POAP hunters.
+
+
+## Additional Information
+Grantee Team Size: 
+1

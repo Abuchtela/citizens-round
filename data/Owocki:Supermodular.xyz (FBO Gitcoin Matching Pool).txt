@@ -1,0 +1,28 @@
+# Name of the grantee: Owocki/Supermodular.xyz (FBO Gitcoin Matching Pool)
+
+## Grantee website: https://supermodular.xyz
+
+## Grantee Twitter handle: @supermodularxyz
+
+## Created on: June 4th, 2023
+
+## Grantee Description
+
+Supermodular.xyz is a regenerative venture studio founded by Kevin Owocki.
+While we are disaffiliated from Gitcoin's leadership, we continue to build in the regen ecosystem, of which Gitcoin is a part. That means that sometimes we build on top of Gitcoin protocols.
+We've built or are building/advising on the following regen ecosystem tools:
+	•	Grants data visualization tool
+	•	Bulk Grant Uploader
+	•	Quadratic Honey (QF Mobile Game)
+	•	Quadratic Funding Social Network
+	•	Zuzalu Passport x Gitcoin Integration
+	•	Partnership Protocol
+	•	Schelling Point Website
+	•	Quadratic Yeeter
+	•	Impact Stream
+In addition, I've authored over 100 posts on gov.gitcoin.co to knowledge share/participate in the Gitcoin ecosystem. https://gov.gitcoin.co/u/owocki/summary
+We appreciate that we were nominated for the Gitcoin Citizens round, and we want to participate to test the Grants Stack product, but will be forwarding all of the funds raised during this round to the Gitcoin Matching Pool to support public goods. Public goods are good!
+
+## Additional Information
+Grantee Team Size: 
+12

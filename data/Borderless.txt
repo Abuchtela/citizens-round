@@ -1,0 +1,20 @@
+# Name of the grantee: Borderless
+
+## Grantee website: https://borderless.cryptosmartnow.io/
+
+## Grantee Twitter handle: @_karlagod
+
+## Created on: June 1st, 2023
+
+## Grantee Description
+
+Borderless is a non-for-profit tech arm of Crypto Smart that aims to train at least 100 African tech developers each year to build Web2 and Web3 products. We do this by establishing physical hubs, hosting events, providing training, offering mentorship, and launching tech projects.
+Physical hubs: B<>rder/ess will have physical hubs in several African countries that provide a space for developers to learn, collaborate, and network.
+The first was opened in November 2022 in Port-Harcourt Nigeria and the next will be opened at the University Of Port-Harcourt Nigeria.
+Events: B<>rder/ess hosts a variety of events, such as hackathons, meetups, and conferences. These events provide developers with opportunities to learn new skills, meet new people, and share their work, the last event was held in November 2022 in Port-Harcourt Nigeria. See the highlights here https://borderless.cryptosmartnow.io/event
+Training: B<>rder/ess offers a variety of training programs, both online and in person. These programs cover a wide range of topics, including web development, blockchain development, and data science.
+Mentorship: B<>rder/ess pairs developers with experienced mentors. These mentors provide guidance and support to help developers reach their full potential.
+
+## Additional Information
+Grantee Team Size: 
+10

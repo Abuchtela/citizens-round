@@ -1,0 +1,27 @@
+# Name of the grantee: Bankless Academy
+
+## Grantee website: https://app.banklessacademy.com
+
+## Grantee twitter handle: @banklessacademy
+
+## Created on: May 29th, 2023
+
+## Grantee Github: didierkrux
+
+## Grantee Github: BanklessDAO
+
+## Grantee Description
+
+Bankless Academy is a leading web3 "knowledge on-ramp" - a practical & engaging education experience with infrastructure preparing to be scaled across the blockchain multiverse.
+We're helping the world adopt the permissionless tools they need to go Bankless.
+We have worked closely with the Gitcoin Passport team on integration, feedback & promotion:
+	1	Early integration of Gitcoin Passport into Bankless Academy
+	2	Gitcoin Passport case study article https://twitter.com/gitcoin/status/1633547547192213506
+	3	Analysis of the case study with the new Gitcoin Passport Scorer API
+	4	PR for a filtered view on Gitcoin Passport (can be used by other communities) https://passport.gitcoin.co/?filter=bankless-academy#/dashboard
+	5	Early feedback on the Scorer API & Gitcoin Passport UX
+	6	Promoting the latest Scorer API infrastructure
+
+## Additional Information
+Grantee Team Size
+3

@@ -1,0 +1,47 @@
+# Name of the grantee: ITU Blockchain
+
+## Grantee website: https://itublockchain.com
+
+## Grantee Twitter handle: @ITUblockchain
+
+## Created on: January 7, 2023
+
+## Grantee Github: ismailemin
+
+## Grantee Github: itublockchain
+
+## Grantee Description
+
+ITU (Istanbul Technical University) Blockchain is the first university blockchain society in Turkey. We are organizing blockchain events and courses for everyone. We have many students who are ready to improve themselves in this technology.
+-Double Finalist in Scaling Ethereum 2023-
+We've been selected as finalist with two projects in Scaling Ethereum 2023 hackathon which is organized by ETH Global. Opclave and Polynote teams are our two hackathon teams out of five. We participated in the hackathon with 25 hackers in total. It was the first hackathon experience for 18 of them.
+Our Free Solidity Course is Supported by Ethereum Foundation!!!
+We've been published a free Solidity Course (https://youtube.com/playlist?list=PLby2HXktGwN4Cof_6a8YwlMrboX8-hs73) on our Youtube channel. The total duration of the course is approximately 20+ hours. The voiceover of the course was made in Turkish. As we continue to expand our Solidity course, we would like to announce that this education is supported by the Ethereum Foundation from now on.
+--2022-2023 Academic Year Update--
+As with every year, many new members joined us this year. We reserved our first semester in the academic calendar for trainings and meeting with our community. So far, we have held 6 face-to-face trainings, 3 workshops, and 3 meetings between members. In other words, we have done activities in 12 weeks of the 14-week period. We consider it appropriate to share a few images from our events below.
+--Devcon VI Bogota--
+We participated in the long-awaited Devcon Bogota as ITU Blockchain. We even had the chance to open Impact Booth at Devcon. All visitors were told about the blockchain community in Turkey and ITU Blockchain. Also, one of our former chairmans, Ulas Erdogan, took part in one of the Devcon panels as a speaker. We also had the chance to talk with Vitalik about the Ethereum community in Istanbul and gift him a t-shirt.
+--ETH Berlin & DappCon & DuneCon--
+We attended ETH Berlin with 12 people from our club. We also attended DappCon and DuneCon, which took place as part of the Berlin Blockchain Week, and followed the talks. Our hackathon team placed second in the Open Track category.
+--ETH Mexico--
+One of our members participated in ETH Mexico. He and his team became one of 12 finalists. Success continues with ITU Blockchain.
+--ETH Barcelona--
+Our teammates took part in ETH Barcelona both as volunteers and as participants. Our volunteer friends have gained a lot of experience on how to organize an event on a global scale. They shared their experiences with us. With these experiences, we will make future events in Turkey better.
+--Cryptist Istanbul Meetup--
+We organized and participated in Cryptist Istanbul, the first zero knowledge-focused community event in Turkey. We took part as a team in the event attended by very important speakers and we found various networking opportunities.
+--ETH Prague Hackathon--
+We participated in the Ethereum Prague Hackathon with our project on sustainability. We had the chance to meet and communicate with expert developers in the ecosystem.
+--Avalanche Barcelona Summit | Hackathon--
+As ITU Blockchain, we came back as the team that received the most rewards from Avalanche Barcelona Hackathon. We returned to Istanbul with 2 different rewards in total.
+LayerZero Best Usecase Reward
+Coinbase Best Team Reward
+--Avalanche Hacks Istanbul--
+We've completed Hackathon at 2nd place. It was an event where we gained a lot of experience and knowledge.
+Twitter: https://twitter.com/itublockchain
+Instagram: https://instagram.com/itublockchain
+Linkedin: https://www.linkedin.com/company/itublockchain
+Youtube: https://www.youtube.com/@ITUBlockchain/
+
+## Additional Information
+Team Size
+60

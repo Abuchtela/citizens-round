@@ -1,0 +1,15 @@
+# Name of the grantee: Bankless Hindi
+
+## Grantee website: https://linktr.ee/banklesshi
+
+## Grantee Twitter handle: @BanklessH
+
+## Created on: June 4th, 2023
+
+## Grantee Description
+
+The Bankless Hindi project is an branch of the BanklessDAO community. We aim to create A/V and written content to better educate Indian audiences on the nuances of Blockchain technology and its various implementations that have been developing over the last 5 years. There have been many talented contributors to the project, however it is getting more and more difficult to fairly remunerate them and thus the project has been limited in output recently. A Gitcoin grant would blow new steam into our engines as we would be able to pay contributors enough for a well planned piece of content that we could use to approach more web3 protocols for further funding.
+
+## Additional Information
+Grantee Team Size: 
+4

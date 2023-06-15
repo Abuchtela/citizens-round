@@ -1,0 +1,38 @@
+# Name of the grantee: Biteye
+
+## Grantee website: https://biteye.info
+
+## Grantee Twitter handle: @biteyecn
+
+## Created on: June 2nd, 2023
+
+## Grantee Description
+
+Biteye is a blockchain research community which focuses on L1/L2, DeFi, NFT and Web3.
+Our mission is to create forward-looking research content and cutting-edge analytical tools, helping our community members to explore the Web3 rabbit hole.
+We have worked diligently to introduce Gitcoin and enhance the Gitcoin community experience through various initiatives:
+	•	Education: We created content to introduce Gitcoin as a platform for public good funding.
+	•	Guidance: We provided tutorials to help users donate and discover interesting projects.
+	•	Promotion: We hosted Discord AMAs and Twitter Spaces with Gitcoin China.
+	•	Support: We set up a dedicated channel in our community Discord to assist people during Gitcoin donation rounds.
+Here are the links to our work related to education, guidance, YouTube tutorials, Twitter Spaces, and Discord AMAs for Gitcoin:
+	•	GR13
+https://twitter.com/BiteyeCN/status/1503327482748887040
+	•	GR14
+https://twitter.com/BiteyeCN/status/1535875540007235587
+https://twitter.com/BiteyeCN/status/1537430055848386560
+	•	GR15
+https://twitter.com/BiteyeCN/status/1567528848731824128
+	•	alpha round
+https://twitter.com/BiteyeCN/status/1615612419992350721
+	•	beta round
+https://twitter.com/BiteyeCN/status/1651183735058968579
+Our efforts have significantly contributed to improving Gitcoin's visibility, educating users and fostering engagement.
+To measure our impact, we have collected data based on on twitter analysis, here is the summary of our gitcoin related tweets.
+total retweets: 1,508
+total likes: 1,746
+total views: 1.02Million
+
+## Additional Information
+Grantee Team Size: 
+6

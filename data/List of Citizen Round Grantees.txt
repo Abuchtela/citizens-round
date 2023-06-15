@@ -1,0 +1,48 @@
+The first-ever Citizens Round is now LIVE! A unique opportunity to celebrate and support the unsung heroes who've been integral to @gitcoin's journey.
+
+We're welcoming 33 grantees who are individuals and projects who've made significant contributions through education, informative spaces, data analysis, and essential discord support. The round runs from June 13 12:00 UTC - June 27 23:59 UTC on Optimism
+
+With this round, we're shifting the focus to past accomplishments, not future potentials. This retroQF round spotlights the extraordinary value already being created by our citizens. Don't think about stimulating future work. Instead, let's recognize and reward value created
+
+A matching pool of 20K DAI is ready to amplify your support via Quadratic Funding. Every donation matters and thanks to QF, your donation won’t just be a drop in the ocean– it will create waves
+
+Don't forget!
+
+1. Verify your @gitcoinpassport to activate the matching pool for your donation and prevent Sybil attacks.
+
+2. This round is on Optimism meaning lower gas fees. Make sure to switch to Optimism and transfer ETH for gas fees and donations.
+
+Let’s pay it forward to those who have worked behind the scenes without any expectation of reward, inspiring future innovators. Together, we can create an even stronger  @gitcoin community.
+
+Here are the names of the 33 grantees:
+- 40acres DAO
+- All for Climate DAO- Gitcoin support since GR12
+- Archimedes' Lever
+- Bankless Academy
+- Bankless Hindi
+- BanklessDAO's Gitcoin Citizens
+- Biteye
+- Blu3 Global
+- Bob Jiang
+- Borderless
+- Carl Cervone - Onchain Impact Evaluatooooor
+- Carlos Melgar - Community Supportooooooor
+- DeSci Round Operators
+- Dune Analytics dashboard - Proof Of Stake by Vitalik Buterin - Digital Book 
+- Eartbased soul
+- Gitcoin Awareness and Female Founder Amplification
+- Gitcoin Onboarding with Regens Unite
+- greenpill.network
+- Indigenous Voices in Gitcoin by Mycelia
+- ITU Blockchain
+- Jimi Cohen - Gitcoin Radio
+- Jon Ruth - Discord and Telegram Superhero
+- Kairos Research
+- Karma
+- Lefteris Karapetsas
+- Mars - Gitcoin citizen
+- OpenLore Library
+- Owocki/Supermodular.xyz (FBO Gitcoin Matching Pool)
+- Quadratic Trust - Anne Connelly
+- ZER8's Gitcoin Citizen Round Application
+- Zuzalu Gitcoin Hype Squad

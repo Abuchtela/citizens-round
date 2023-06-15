@@ -1,0 +1,34 @@
+# Name of the grantee: OpenLore Library
+
+## Grantee website: https://www.infinitegarden.art/cards
+
+## Grantee Twitter handle: @mettahead
+
+## Created on: April 19, 20th23
+
+## Grantee Description
+
+Summary
+The outside world sees crypto as little more than a decentralized casino but an optimistic counternarrative has emerged around the regen community. This vision reveals that crypto gives us coordination superpowers.
+I believe that for the regenerative mission to succeed, we must amplify positive-sum stories that are informative, fun, and accessible to all.
+Overview
+As a former Creative Director with Gitcoin, my art helped fundraise over half a million dollars for the Gitcoin Grants Matching Pool since 2021. My focus on regen fiction has now shifted to cultivating the OpenLore Library*, a database of web3 lore, stories, and memes. In the project I am proposing, Moloch, Ether’s Phoenix, and the Dark Forest are just the beginning of a new, uplifting mythology.
+Crypto is at a critical inflection point. Your choice to invest in this project will help realize a positive-sum future for the following reasons:
+	•	The next billion crypto users need inspiring and informative stories to guide them through the cryptoverse. Newcomers consistently fall for the same schemes and OGs can do a better job of passing along the wisdom of past cycles. OpenLore mythology features relatable characters and worlds that orient and guide new adventurers through the cryptoverse.
+	•	OpenLore mirrors reality. Every entry in the library (characters, technology, and environments) also represents a powerful force in the real world.
+	•	New settlers are not the only people confused about web3; many crypto elders are still unaware that “Ethereum isn’t here to make you rich, Ethereum is here to set you free" (Vitalik Buterin). Beliefs motivate behavior and it is essential we make Ethereum’s vision clear and attractive.
+	•	Public goods awareness needs to increase in the NFT space. The NFT community has an outsized impact on how the world perceives crypto but our PFP frens are generally oblivious to the regen way. The Gitcoin x MetaLabels drop, Creature World collaboration, and PublicNouns projects have made promising headway and the OpenLore Library is the next step to trojan horse our regen crypto values.
+	•	For those of us already Greenpilled: OpenLore represents a celebration of the adventures that have brought us here–and an inspiring vision of what we hope to buidl together next.
+Specifications
+The Ethereum Foundation’s vision of the Infinite Garden inspired me to build the Infinite Garden Trading Card Game. The Infinite Garden TCG recently received seed funding from Gitcoin [GCP-006].
+Funding from this quadratic grant will go to fund the public library of OpenLore. More characters, environments, and artifacts that represent the most significant corners of our wild web3 adventure.
+Bio:
+As a Creative Director with Gitcoin, my art helped fundraise over half a million dollars for the Gitcoin Grants Matching Pool since 2021. Ethereum’s culture and values are central to my creative work and I have continued to dedicate my art sales to funding social causes. I have a proven record of project generation, initiation, development, and completion.
+	•	Infinite Garden Coloring Book (forward by Aya Miyaguchi) - 2023
+	•	Gitcoin Creative Director (NFT fundraisers for Gitcoin Grants) - 2021-2022
+	•	Spider-Man Character Artist (Sony) - 2018-2021
+*OpenLore Library was previously called the Infinite Garden Library
+
+## Additional Information
+Grantee Team Size: 
+1

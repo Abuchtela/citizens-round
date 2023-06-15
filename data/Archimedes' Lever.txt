@@ -1,0 +1,24 @@
+# Name of the grantee: Archimedes' Lever
+
+## Grantee website: https://bhau.gitbook.io/archimedes-lever-1/
+
+## Grantee twitter handle: @bhau_jagmd
+
+## Created on: April 2, 2023rd
+
+## Grantee Github: jagtapper
+
+## Grantee Description
+
+The Archimedes' Lever developed from the Neuroscience of Ethereum (https://bounties.gitcoin.co/grants/7514/neuroscience-of-ethereum-decentralized-science-fo) during the inaugural Gitcoin Grants Decentralized Science #DeSci Round. A very big thank you to all supporters of such innovative ideas that cannot grow and impact the world in the realms of Traditional Academia.
+This project is about restoring the Spirit of Science and directing it towards the intended purpose of the Scientific Process - Discovery of Truth. Today, Governance over the Scientific Process is misdirected towards proving that which is desired to be established as truth, for the purposes of control and profits by 3rd parties. This can be summarized by Goodhart's Law:
+"When a measure becomes a target, it ceases to be a good measure."
+The Scientific Process is driven by the motive to gather evidence against the null hypothesis in order to disprove it, consequently lending credence to the hypothesis in mind. The inverse is ubiquitous. The Scientific Process is heavily influenced by Ego Bias - the self-oriented drive to extract value for oneself at the expense of others; the opposite of Public Good.
+This is fundamentally causally related to the plethora of global problems humanity faces today; therefore, we must facilitate the widespread adoption of Decentralized Science #DeSci
+This project aims to Apply Archimedes' Insights by symbolically deploying the Archimedes Lever, so as to onboard the next wave of users to web3. Innovations in Money, Decentralized Finance, Decentralized Governance, Decentralized Autonomous Organizations, Decentralized Identity, and Hybrid Applications will be integrated to create and deliver Value for web3 citizens - for We, the People.
+This project is for those who believe the IMPOSSIBLE is POSSIBLE - to those who believe in the Infinite Garden & the Infinite Machine; to everyone who is here to uncover & discover Truth; to us all who live to unlock the untapped potential of Decentralized Science #DeSci - to the ground shakers & the Earth Movers - LFG 🌎🔥🚀
+Stay Hungry; Stay Foolish 🤪😈😎
+
+## Additional Information
+Grantee Team Size
+3

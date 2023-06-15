@@ -1,0 +1,20 @@
+# Name of the grantee: Karma
+
+## Grantee website: https://www.karmahq.xyz
+
+## Grantee Twitter handle: @karmahq_
+
+## Created on: June 2, 2023rd
+
+## Grantee Github: maheshmurthy
+
+## Grantee Github: show-karma
+
+## Description
+
+Karma is a reputation system for web3 participants.
+Our first product is a suite of governance tools we have built to help DAOs improve their governance. We index delegate activity across on-chain and off-chain voting systems, forum and platforms the community uses and surface all the information in a dashboard. This is used by tokenholders to find candidates to delegate their tokens, and for the community to get visibility into delegate activity. We have also built tools to make it easy for delegates to look up their tokenholders, tokenholders to lookup their delegate and their performance and community to tip their delegates.
+
+## Additional Information
+Grantee Team Size: 
+4

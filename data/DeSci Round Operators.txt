@@ -1,0 +1,44 @@
+# Name of the grantee: DeSci Round Operators
+
+## Grantee website: https://t.me/gitcoindesci
+
+## Grantee Twitter handle: @DeSci_Round_Ops
+
+## Created on: June 4th, 2023
+
+## Grantee Description
+
+🚀 Attention, DeSci builders! 🚀
+During the recent Gitcoin Beta Rounds, the DeSci (Decentralized Science) community conducted the first-ever community-run featured round on the new Grants Stack and Allo Protocol. We want to shed light on the efforts of the dedicated DeSci (Decentralized Science) Round Operators around and during the first DeSci round on the new Gitcoin Grants Program. Let's explore the various activities and advantages they have brought to the DeSci ecosystem and beyond.
+Our community-elected #GitcoinBeta DeSci Stewards:
+	•	Boris Dyakov
+	•	Jelani Clarke
+	•	Carolina Menchaca
+	•	Sarah Rouse
+	•	Manuel Olariu
+Strategic Planning and Organization
+Our DeSci Round Operators, elected as stewards by the community in an on-chain vote, played a pivotal role in defining, launching, and managing the round. They spearheaded the strategic planning and organization of the entire grants round, ensuring that it aligns with the principles of open science and advances the growth of decentralized scientific knowledge on the Web3 stack. In collaboration with the community, they defined eligibility criteria for this round. We believe that the many hours dedicated to this round by the round operators has helped establish a stronger self-directed DeSci ecosystem where rounds are run by the community, for the community.
+Community Engagement and Outreach
+The DeSci Round Operators engaged the Gitcoin community and beyond. They passionately spread awareness about the grants round, emphasizing the importance of decentralized science and its potential to address many of the problems which plague modern science. They actively sought out diverse voices, reaching out to researchers, developers, and enthusiasts worldwide, encouraging them to participate and contribute their unique ideas and skills to the cause. By fostering a strong community bond, they created an environment that nurtured innovation; collaboration in the realm of Decentralized Science, Regenerative Finance and Decentralized Space ecosystems.
+Grant Evaluation and Selection
+Tasked with reviewing submitted projects and ensuring adherence to the eligibility criteria and quality of submissions, our DeSci Round Operators diligently evaluated the submitted applications. They applied their expertise and extensive knowledge to ensure the selection process was fair, equitable, and aligned with the core principles of the Decentralized Science Grants Round. As part of the payout process, the DeSci round operators will be publishing a summary of the review process for transparency and to help future round stewards better define eligibility criteria and conduct reviews.
+Approved: 65 projects
+Rejected: 18 projects
+Grant Management and Support
+Beyond the selection process, the DeSci Round Operators continued to play an active role in managing and supporting the grantees. By moderating a dedicated telegram channel for the community, they ensured the DeSci grantees were able to have their questions and concerns answered directly by the Operators team. They provided guidance and mentorship, to grant recipients all along the grant application process, helping them navigate the challenges of using the beta version of the grants stack. By offering ongoing support, they aimed to ensure that every voice within our community felt heard.
+Facilitating the DeSci Round
+The DeSci Round Operators played a crucial role in finalizing a suitable grants round with the matching pool funds available from MoonDAO, GreenPill China, and previous DeSci sponsors. They meticulously worked to create an environment that encouraged generous contributions to support the Decentralized Science Grants Round view on Etherscan. By monitoring the donation process, they ensured that all stakeholders had a tangible impact on empowering decentralized science projects and fostering collaborative endeavors within the community. The funds were managed through this multisig.
+Co-Marketing and Community Activation
+Our DeSci Round Operators actively engaged in co-marketing efforts to amplify the visibility and reach of the DeSci Grants Round. They collaborated with various partners, to conduct announcements, AMAs, and social media campaigns. By leveraging these channels, they effectively spread the word about the grants round, attracting a diverse range of researchers, developers, and enthusiasts to participate and contribute their expertise.
+Est. Donations Made: $18,689.71
+Matching Funds Available: 85000.0 DAI
+Unique Contributors: 267
+Number of Contributions: 1,042
+🌟 We Need Your Support! 🌟
+The dedication demonstrated by the DeSci Round Operators has set an extraordinary new precedent for community-led grassroots funding. To show our appreciation and reward the contribution of community heroes we have joined the Gitcoin Citizens Round. This round aims to recognize and support community leaders who have been instrumental in driving the success of the DeSci Grants Round.
+We kindly invite you to participate and donate to the Gitcoin DeSci Operators. Your support will go a long way in acknowledging their relentless efforts and ensuring the continued growth of the Decentralized Science movement.
+🙌 Join us in celebrating the achievements of the DeSci Round! Together, we can propel the frontiers of scientific discovery and innovation to new heights. 🚀
+
+## Additional Information
+Grantee Team Size:
+5

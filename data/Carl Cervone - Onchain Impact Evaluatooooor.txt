@@ -1,0 +1,20 @@
+# Name of the grantee: Carl Cervone - Onchain Impact Evaluatooooor
+
+## Grantee website: https://mirror.xyz/cerv1.eth
+
+## Grantee Twitter handle: @carl_cervone
+
+## Created on: June 1st, 2023
+
+## Grantee Github: ccerv1
+
+## Description
+
+For the last two Gitcoin Grants rounds, I have been using on-chain data to decide which grants to fund. I evaluated 158 projects for the Alpha Round and over 600 for the Beta Round. The analysis took many hours of coding and experimentation, but gets better with each round.
+I also set-up one of the first Dune Dashboards for monitoring Gitcoin Grants during the UNICEF round, which I'm delighted to see being forked and used for future rounds.
+If you want to explore more of my Gitcoin-inspired data viz, then check out this Network Graph of Impact DAOs, some on-chain DeSoc analysis research, and these fun little "plural preferences" plots.
+Last but not least, any funds that come my way will be re-invested in decentralized impact evaluations, either through direct sponsorships or bounties!
+
+## Additional Information
+Grantee Team Size: 
+1

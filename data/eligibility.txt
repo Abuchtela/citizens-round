@@ -1,0 +1,49 @@
+Gitcoin Citizen Round #1 Eligibility
+	•	The first Gitcoin Grants Citizen Rounds aims to use QF to retroactively reward those who have contributed to Gitcoin’s success without being compensated
+	•	Applications: May 15th to June 4th
+	•	Donations Open: June 13th to June 27th 
+	•	Matching Pool: 20k DAI 
+
+The Gitcoin Grants Citizen Rounds aim to reward people and grassroots projects that have contributed to Gitcoin’s success, specifically by engaging with the wider ecosystem and community. An umbrella term could be ‘Gitcoin Community Engagement’. More specifically, we aim to reward work contributing directly to Gitcoin’s ‘most important things’ and our Purpose and Essential Intents. For example, contributions in the areas of educational content, data analysis and support-oriented initiatives.
+
+The planned dates for donations to projects in this round are June 13th to June 27th. There will be 3 Rounds in total, each with a distinct matching pool and updated criteria. You can read more here. 
+
+Submission of projects starts on May 15th
+
+With this first round we will focus exclusively on rewarding projects which happened in the past, i.e we will use retroactive quadratic funding. This method does not require extensive proposals, only proof that valuable work has been done. Projects should prove the impact they had on the community, by adding as much data available as possible, e.g. listeners of space, reference to posts written and number of likes and views. The more data available, the easier it is for the community to evaluate impact. 
+
+The purpose of this document is to outline the general eligibility policy that all grants must meet in order to qualify for acceptance.
+
+Evaluations are done by the core team, and all applicants will be contacted after submission. If a submission is not accepted, the team will provide a reason. 
+
+Citizen Round-Specific Eligibility Policies
+
+	•	Awarded projects & people should have a high focus on community engagement and contribute directly to Gitcoin’s ‘most important things’  and our Purpose and Essential Intents. We intend to reward projects that primarily focus on improving Gitcoin’s community experience. The Grants proposal should explicitly outline how this project supported the Gitcoin Community. Some (non-exhaustive) examples of topics: 
+
+	•	educational content, eg. a guide on how to donate on our platform 
+	•	promotional content, eg running a twitter space to cover our rounds
+	•	data analysis, eg. a data analysis of previous donations
+	•	support-oriented initiative, eg. helping out users in our discord 
+
+	•	Contributions cannot have been compensated or expect to receive compensation outside of this round.
+
+	•	Team efforts must be submitted as one team submission, not as several individual grants.
+
+	•	Only applications on Gitcoin Builder will be able to be funded. However, the community can nominate others on our forum. 
+
+	•	Projects must be at least 2 weeks old at the date of submission. Newer projects should establish themselves and submit to the next round.
+
+Gitcoin Program General Eligibility Policy
+This policy is set and enforced by the PGF workstream of Gitcoin and is ratified by the Gitcoin stewards. Projects must meet the following criteria:
+	•	Verified Github (if applicable) and/or Twitter account
+
+Additionally, the following are not permitted in Gitcoin-operated rounds:
+	•	Hateful Content - No racist, sexist, or otherwise hateful speech, no discrimination
+	•	Deceiving Users - Malicious content that could cause harm or unintended consequences to users
+	•	Falsification - Any type of hacking to falsify a contribution is prohibited. No encouraging or enabling Sybil attacks or other forms of malicious manipulation of the grants platform or the Gitcoin community
+	•	Fraud & Impersonation - Claiming to be a brand or person you are not. The Grant owner must be directly affiliated with the project, the funds must go to the project, and be used for the purposes stated in the Grant’s details
+	•	Quid Pro Quo & Bribery - The Grant may not have any form of quid pro quo that has financial value (a scenario in which a user gets some additional unique benefit/award in return for their donation)
+	•	Advertising - Using grants to showcase something you are selling like a token sale or NFT drop
+	•	Well-capitalized projects - Not have prior external funding of over $500k USD via venture capital, token launches, or NFT sales
+	•	Grantees cannot be subject to sanctions, and funding cannot be used in violation of any applicable law, rules, or regulations (for example those addressing sanctions, financing of terrorism, and anti-money-laundering)
+	•	Grantees can be eliminated from consideration in the round if they are found to be encouraging or enabling Sybil attacks or other forms of malicious manipulation of the grants platform or the Gitcoin community

@@ -1,0 +1,19 @@
+# Name of the grantee: Zuzalu Gitcoin Hype Squad
+
+## Grantee website: https://www.notion.so/coltonart/Gitcoin-Grantees-at-Zuzalu-460e1afbac6740a0aac4bd84eadd4f37?pvs=4
+
+## Grantee Twitter handle: @noahchonlee
+
+## Created on: May 21st, 2023
+
+## Grantee Description
+
+Colton Orr, Noah Chon Lee, and LauNaMu helped onboard and coordinate 28 Gitcoin grant projects (linked in the notion spreadsheet) and organized the following three events at Zuzalu:
+	1	A dinner for all the Gitcoin grantees to plan out how to support one another. Around 25 attendees joined.
+	2	A party with around 40 attendees of both grantees and people new to Gitcoin with homecooked Mexican food provided.
+	3	A workshop during which we provided free pizza for around 50 people and helped onboard people to Gitcoin passport and walk them through donating or answering questions about how to add their own projects in the future.
+We also communicated with Gitcoin team members Umar and Boris about when is the best time to donate despite gas fees and then shared that with the wider community.
+
+## Additional Information
+Grantee Team Size: 
+3
