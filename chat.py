@@ -35,13 +35,12 @@ index = load_index_from_storage(StorageContext.from_defaults(persist_dir="./stor
 query_engine = index.as_query_engine(service_context=service_context, text_qa_template=qa_template)
 
 st.title("Gitcoin Citizens Round")
-st.markdown("[The Gitcoin Citizens Round](https://gov.gitcoin.co/t/rewarding-the-community-gitcoin-citizen-round-1/14905) aims to reward people and grassroots projects \
-            that have contributed to Gitcoin’s success, specifically by engaging with the wider ecosystem and community. \
-            An umbrella term could be ‘Gitcoin Community Engagement’. More specifically, we aim to reward work contributing directly to Gitcoin’s \
-            ‘most important things’ and our Purpose and Essential Intents. For example, contributions in the areas of educational content, data analysis, \
-            and support-oriented initiatives.")
+st.markdown("Hi there! 👋 [The Gitcoin Citizens Round](https://gov.gitcoin.co/t/rewarding-the-community-gitcoin-citizen-round-1/14905) aims to reward people and grassroots projects \
+            that have contributed to Gitcoin’s success, specifically by engaging with the wider ecosystem and community")
 st.markdown("Gitcoin Citizens Round #1 is **[live](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc)**! \
             Donations open until June 27th 23:59 UTC")
+st.markdown("Below, you'll find some links that can give you more information about the grantees on Explorer. \
+            And if you have any questions about the Round or the impact that grantees have made, feel free to ask away! 🙌")
 
 # while True:
 st.markdown("**Learn more about the round and the grantees by asking your questions below:**")
