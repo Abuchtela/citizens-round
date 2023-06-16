@@ -79,7 +79,7 @@ with st.expander("See links to browse through grantees on Explorer"):
     st.markdown("[ZER8's Gitcoin Citizen Round Application](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-41)")
     st.markdown("[Zuzalu Gitcoin Hype Squad](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-9)")
 
-st.markdown("Note: Gitcoin Explorer is the single source of truth for information on the Citizens Round. \
+st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc) is the single source of truth for information on the Citizens Round. \
             This prototype is built on LLM technology with known limitations. \
             Refer the grantee information on the above links before making final funding decisions.")
 
