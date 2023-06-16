@@ -42,8 +42,20 @@ st.markdown("Gitcoin Citizens Round #1 is **[live](https://explorer.gitcoin.co/#
 st.markdown("Below, you'll find some links that can give you more information about the grantees on Explorer. \
             And if you have any questions about the Round or the impact that grantees have made, feel free to ask away! 🙌")
 
-# while True:
-st.markdown("**Learn more about the round and the grantees by asking your questions below:**")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+  st.markdown("[40acres DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-57)")
+  st.markdown("[All for Climate DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-53)")
+
+with col2:
+  st.markdown("[40acres DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-57)")
+  st.markdown("[All for Climate DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-53)")
+
+with col3:
+  st.markdown("[40acres DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-57)")
+  st.markdown("[All for Climate DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-53)")
+
 question = st.text_input("", placeholder="Enter your question here")
 
 if question != "":
