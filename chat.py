@@ -45,7 +45,6 @@ st.markdown("Below, you'll find some links that can give you more information ab
 col1, col2, col3 = st.columns(3)
 
 with st.expander("See links to browse through grantees on Explorer"):
-
   with col1:
     st.markdown("[40acres DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-57)")
     st.markdown("[All for Climate DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-53)")
@@ -60,7 +59,6 @@ with st.expander("See links to browse through grantees on Explorer"):
     st.markdown("[Carl Cervone - Onchain Impact Evaluatooooor](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-18)")
     st.markdown("[Carlos Melgar - Community Supportooooooor](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-59)")
     st.markdown("[DeSci Round Operators](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-48)")
-
   with col2:
     st.markdown("[Dune Analytics dashboard - Proof Of Stake by Vitalik Buterin - Digital Book ](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-39)")
     st.markdown("[Eartbased soul](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-36)")
@@ -71,7 +69,6 @@ with st.expander("See links to browse through grantees on Explorer"):
     st.markdown("[Indigenous Voices in Gitcoin by Mycelia](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-54)")
     st.markdown("[ITU Blockchain](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-45)")
     st.markdown("[Jimi Cohen - Gitcoin Radio](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-52)")
-
   with col3:
     st.markdown("[Jon Ruth - Discord and Telegram Superhero](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-20)")
     st.markdown("[Kairos Research](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-40)")
