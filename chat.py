@@ -84,9 +84,7 @@ st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x9
             Refer the grantee information on the above links before making final funding decisions.")
 
 st.markdown("**Not sure what to ask? Try these**: *Tell me what I need to know about the Gitcoin Citizens Round as a donor*,  \
-            *Tell me about the impact has <grantee> created*,  \
-            *Pick one grantee in random and tell me more about them*, \
-            *Give me questions I can ask that you have answers for*")
+            *Tell me about the impact has <grantee> created*")
 
 question = st.text_input("", placeholder="Enter your question here")
 
