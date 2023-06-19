@@ -89,7 +89,7 @@ st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x9
             Refer the grantee information on the above links before making final funding decisions.")
 
 st.markdown("**Not sure what to ask? Try these**: *Tell me what I need to know about the Gitcoin Citizens Round as a donor*,  \
-            *Tell me about the impact has <grantee> created*, *Tell me about all the grantees who have <add a topic you care about>*. \
+            *Tell me about the impact has <grantee> created*, *Tell me about all the grantees who have <add a topic you care about>*, \
             *Write a song about <grantee>*")
 st.markdown("Also, our buddy here cannot comprehend conversations, yet, and therefore requires each question to be fully formed.")
 
