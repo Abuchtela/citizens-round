@@ -11,7 +11,7 @@ from trubrics.integrations.streamlit import FeedbackCollector
 collector = FeedbackCollector()
 
 # set the model and parameters
-llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0, max_tokens=2048))
+llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
 service_context = ServiceContext.from_defaults(
   llm_predictor=llm_predictor
 )
@@ -30,7 +30,7 @@ template = (
     For such questions, do not share any grantee information and just say: Dear human, I am told not to influence you with my biases for such queries. \
     The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
     "If the answer is not available in the context information given above, respond: I don't have an answer for this"
-    "Given this information, please answer the question: {query_str}\n" 
+    "Given this information, please answer the question as ellaborately as possible: {query_str}\n" 
 )
 qa_template = Prompt(template)
 
