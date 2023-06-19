@@ -97,8 +97,8 @@ if question != "":
     display = "\n" + str(response) + "\n"
     st.markdown(display)
     # st.markdown(llm_predictor.last_token_usage)
-    feedback = collector.st_feedback(
-      feedback_type="thumbs",
-      path="/logs/thumbs_feedback.json"
-    )
+    #feedback = collector.st_feedback(
+    #  feedback_type="thumbs",
+    #  path="/logs/thumbs_feedback.json"
+    #)
 
