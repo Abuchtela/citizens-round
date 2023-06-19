@@ -6,6 +6,8 @@ import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
 
+from trubrics.integrations.streamlit import FeedbackCollector
+
 # set the model and parameters
 llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
 service_context = ServiceContext.from_defaults(
@@ -92,4 +94,9 @@ if question != "":
     response = query_engine.query(question)
     display = "\n" + str(response) + "\n"
     st.markdown(display)
-    st.markdown(llm_predictor.last_token_usage)
+    # st.markdown(llm_predictor.last_token_usage)
+    feedback = collector.st_feedback(
+      feedback_type="thumbs",
+      path="/logs/thumbs_feedback.json"
+    )
+
