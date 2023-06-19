@@ -30,7 +30,7 @@ template = (
     The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
     "If the answer is not available in the context information given above, respond: I don't have an answer for this"
     "Given this information, please answer the question as ellaborately as possible, \
-    Append grantee website URL and their Twitter handle at the end of the response where relevant \n": {query_str}\n" 
+    Append grantee website URL and their Twitter handle at the end of the response where relevant \n: {query_str}\n" 
 )
 qa_template = Prompt(template)
 
