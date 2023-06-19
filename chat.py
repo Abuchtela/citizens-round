@@ -11,7 +11,7 @@ from trubrics.integrations.streamlit import FeedbackCollector
 collector = FeedbackCollector()
 
 # set the model and parameters
-llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
+llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0, max_tokens=2048))
 service_context = ServiceContext.from_defaults(
   llm_predictor=llm_predictor
 )
