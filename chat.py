@@ -29,6 +29,7 @@ template = (
     (c) Rank the grantees by impact (d) Compare work of one grantee versus another \
     For such questions, do not share any grantee information and just say: Dear human, I am told not to influence you with my biases for such queries. \
     The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
+    "If the answer is not available in the context information given above, respond: I don't have an answer for this"
     "Given this information, please answer the question: {query_str}\n" 
 )
 qa_template = Prompt(template)
