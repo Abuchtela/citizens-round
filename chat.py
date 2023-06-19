@@ -8,6 +8,8 @@ from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreI
 
 from trubrics.integrations.streamlit import FeedbackCollector
 
+collector = FeedbackCollector()
+
 # set the model and parameters
 llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
 service_context = ServiceContext.from_defaults(
