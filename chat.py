@@ -22,7 +22,6 @@ template = (
     "---------------------\n"
     "{context_str}"
     "\n---------------------\n"
-    "If the question includes the name of the grantee, then append their grantee website URL and their Twitter handle at the end of the response.\n"
     "Do not respond to questions that ask to sort or rank grantees. Do not respond to questions that ask to compare \
     grantees. Similarly, do not respond to questions that ask for advise on which grantee to donate contributions to. \
     Few examples of such questions are (a) Which grantee had most impact on Gitcoin? (b) Who should I donate to \
@@ -30,7 +29,8 @@ template = (
     For such questions, do not share any grantee information and just say: Dear human, I am told not to influence you with my biases for such queries. \
     The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
     "If the answer is not available in the context information given above, respond: I don't have an answer for this"
-    "Given this information, please answer the question as ellaborately as possible: {query_str}\n" 
+    "Given this information, please answer the question as ellaborately as possible, \
+    Append grantee website URL and their Twitter handle at the end of the response where relevant \n": {query_str}\n" 
 )
 qa_template = Prompt(template)
 
