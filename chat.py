@@ -2,6 +2,7 @@ import os
 import streamlit as st
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
+import datetime
 import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
@@ -28,9 +29,8 @@ template = (
     (c) Rank the grantees by impact (d) Compare work of one grantee versus another \
     For such questions, do not share any grantee information and just say: Dear human, I am told not to influence you with my biases for such queries. \
     The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
-    "If the answer is not available in the context information given above, respond: I don't have an answer for this"
-    "Given this information, please answer the question as ellaborately as possible, \
-    Append grantee website URL and their Twitter handle at the end of the response where relevant \n: {query_str}\n" 
+    "If the answer is not available in the context information given above, respond: Sorry! I don't have an answer for this"
+    "Given this information, please answer the following question in detail. Where relevant, share the grantee website and Twitter handle. \n: {query_str}\n" 
 )
 qa_template = Prompt(template)
 
@@ -83,24 +83,36 @@ with st.expander("See links to browse through grantees on Explorer"):
     st.markdown("[ZER8's Gitcoin Citizen Round Application](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-41)")
     st.markdown("[Zuzalu Gitcoin Hype Squad](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-9)")
 
-st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc) is the single source of truth for information on the Citizens Round. \
-            This prototype is built on LLM technology with known limitations. \
-            Refer the grantee information on the above links before making final funding decisions.")
+with st.expander("Not sure what to ask? Try this!"):
+    st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc) is the single source of truth for information on the Citizens Round. \
+                This prototype is built on LLM technology with known limitations. \
+                Refer the grantee information on the above links before making final funding decisions.")
 
-st.markdown("**Not sure what to ask? Try these**: *Tell me what I need to know about the Gitcoin Citizens Round as a donor*,  \
-            *Tell me about the impact has <grantee> created*, *Tell me about all the grantees who have <add a topic you care about>*, \
-            *Write a song about <grantee>*")
-st.markdown("Also, our buddy here cannot comprehend conversations, yet, and therefore requires each question to be fully formed.")
+    st.markdown("**Sample questions**: *Tell me what I need to know about the Gitcoin Citizens Round as a donor*,  \
+                *Tell me about the impact has <grantee> created*, *Tell me about all the grantees who have <add a topic you care about>*, \
+                *Write a song about <grantee>*")
+    st.markdown("Also, our buddy here cannot comprehend conversations, yet, and therefore requires each question to be fully formed.")
 
 question = st.text_input("", placeholder="Enter your question here")
 
 if question != "":
-    response = query_engine.query(question)
-    display = "\n" + str(response) + "\n"
+    response = str(query_engine.query(question))
+    display = "\n" + response + "\n"
     st.markdown(display)
     # st.markdown(llm_predictor.last_token_usage)
-    #feedback = collector.st_feedback(
-    #  feedback_type="thumbs",
-    #  path="/logs/thumbs_feedback.json"
-    #)
+
+    with open("logs/responses.txt", "a") as file:
+        file.write("Question: " + question)
+        file.write("\n")
+        file.write("Response: " + response)
+        file.write("\n")  # Optionally, add a new line after the content
+    
+    feedback = collector.st_feedback(
+       feedback_type="thumbs",
+       metadata={
+           "Question": question,
+           "Reseponse": response
+        },      
+    path="logs/thumbs_feedback_" + str(datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")) + ".json"
+    )
 
