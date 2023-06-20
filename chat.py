@@ -3,9 +3,12 @@ import streamlit as st
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 import datetime
+from loguru import logger
 import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
+
+logger.add("file_{time}.log")
 
 from trubrics.integrations.streamlit import FeedbackCollector
 
@@ -101,13 +104,19 @@ if question != "":
     st.markdown(display)
     # st.markdown(llm_predictor.last_token_usage)
 
-    with open("logs/responses.txt", "a") as file:
-        file.write("\n")
-        file.write("Question: " + question)
-        file.write("\n")
-        file.write("Response: " + response)
-        file.write("\n")  # Optionally, add a new line after the content
-    
+#    with open("logs/responses.txt", "a") as file:
+#        file.write("\n")
+#       file.write("Question: " + question)
+#        file.write("\n")
+#        file.write("Response: " + response)
+#        file.write("\n")  # Optionally, add a new line after the content
+
+    logger.debug("\n")
+    logger.debug("Question: " + question)
+    logger.debug("\n")
+    logger.debug("Response: " + response)
+    logger.debug("\n")  # Optionally, add a new line after the content
+
     feedback = collector.st_feedback(
        feedback_type="thumbs",
        metadata={
