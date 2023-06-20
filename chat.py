@@ -3,16 +3,16 @@ import streamlit as st
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 import datetime
-from loguru import logger
+# from loguru import logger
 import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
 
 logger.add(sink=f"{os.getcwd()}\\logs\\responses.txt", mode="a", level="DEBUG")
 
-from trubrics.integrations.streamlit import FeedbackCollector
+# from trubrics.integrations.streamlit import FeedbackCollector
 
-collector = FeedbackCollector()
+# collector = FeedbackCollector()
 
 # set the model and parameters
 llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
@@ -111,18 +111,18 @@ if question != "":
 #        file.write("Response: " + response)
 #        file.write("\n")  # Optionally, add a new line after the content
 
-    logger.debug("\n")
-    logger.debug("Question: " + question)
-    logger.debug("\n")
-    logger.debug("Response: " + response)
-    logger.debug("\n")  # Optionally, add a new line after the content
+#    logger.debug("\n")
+#    logger.debug("Question: " + question)
+#   logger.debug("\n")
+#    logger.debug("Response: " + response)
+#    logger.debug("\n")  # Optionally, add a new line after the content
 
-    feedback = collector.st_feedback(
-       feedback_type="thumbs",
-       metadata={
-           "Question": question,
-           "Reseponse": response
-        },      
-    path="logs/thumbs_feedback_" + str(datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")) + ".json"
-    )
+#    feedback = collector.st_feedback(
+#       feedback_type="thumbs",
+#       metadata={
+#           "Question": question,
+#           "Reseponse": response
+#        },      
+#    path="logs/thumbs_feedback_" + str(datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")) + ".json"
+#    )
 
