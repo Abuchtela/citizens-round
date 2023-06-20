@@ -102,6 +102,7 @@ if question != "":
     # st.markdown(llm_predictor.last_token_usage)
 
     with open("logs/responses.txt", "a") as file:
+        file.write("\n")
         file.write("Question: " + question)
         file.write("\n")
         file.write("Response: " + response)
