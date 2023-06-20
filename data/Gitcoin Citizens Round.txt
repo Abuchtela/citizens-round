@@ -150,3 +150,8 @@ As part of the pilot work, here is a list of are things we intend to learn throu
 * Three funding rounds have been executed & lessons learned have been captured
 * Assets have been created to facilitate the rounds
 * A project close out has been written with recommendations on if/how to proceed
+
+**Support**
+- You can find more answers on [our support pages](https://support.gitcoin.co/gitcoin-knowledge-base/)
+- You can also talk directly to the team through the chat window (bottom right), available anywhere on our platform.
+- Want to talk to the community? Join the [#peer-support channel](https://discord.com/invite/gitcoin) on Discord
