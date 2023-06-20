@@ -8,7 +8,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
 
-logger.add("file_{time}.log")
+logger.add("logs/file_{time}.log")
 
 from trubrics.integrations.streamlit import FeedbackCollector
 
