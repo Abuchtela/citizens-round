@@ -15,7 +15,7 @@ from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreI
 # collector = FeedbackCollector()
 
 # set the model and parameters
-llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0, max_tokens=4000))
+llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
 service_context = ServiceContext.from_defaults(
   llm_predictor=llm_predictor
 )
