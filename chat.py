@@ -96,6 +96,8 @@ with st.expander("Not sure what to ask? Try this!"):
                 *Write a song about <grantee>*")
     st.markdown("Also, our buddy here cannot comprehend conversations, yet, and therefore requires each question to be fully formed.")
 
+st.markdown("For feedback and suggestions, send a DM on Twitter to [Rohit Malekar](https://twitter.com/RohitMalekar)")
+
 question = st.text_input("", placeholder="Enter your question here")
 
 if question != "":
