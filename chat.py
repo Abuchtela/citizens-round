@@ -8,14 +8,14 @@ import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
 
-# logger.add(sink=f"{os.getcwd()}\\logs\\responses.txt", mode="a", level="DEBUG")
+# logger.add(sink=f"{os.getcwd()}\\logs\\responses.txt", mode=" a level=" DEBUG
 
 # from trubrics.integrations.streamlit import FeedbackCollector
 
 # collector = FeedbackCollector()
 
 # set the model and parameters
-llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
+llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0, max_tokens=4000))
 service_context = ServiceContext.from_defaults(
   llm_predictor=llm_predictor
 )
