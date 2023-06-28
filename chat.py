@@ -1,58 +1,41 @@
 import os
 import streamlit as st
-os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
-
 import datetime
-# from loguru import logger
-import streamlit as st
 from langchain.llms import OpenAI
 from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
 
+# Set the OpenAI API key
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+
+# Initialize Streamlit app configuration
 st.set_page_config(page_title="Gitcoin Citizens Round - Q&A Bot")
 
-# logger.add(sink=f"{os.getcwd()}\\logs\\responses.txt", mode=" a level=" DEBUG
-
-# from trubrics.integrations.streamlit import FeedbackCollector
-
-# collector = FeedbackCollector()
-
-# set the model and parameters
+# Set up the language model predictor
 llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
-service_context = ServiceContext.from_defaults(
-  llm_predictor=llm_predictor
-)
+service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
 
-# custom prompt
+# Define the custom prompt template for Q&A
 template = (
     "We have provided context information below. \n"
     "---------------------\n"
     "{context_str}"
     "\n---------------------\n"
-    "Do not respond to questions that ask to sort or rank grantees. Do not respond to questions that ask to compare \
-    grantees. Similarly, do not respond to questions that ask for advise on which grantee to donate contributions to. \
-    Few examples of such questions are (a) Which grantee had most impact on Gitcoin? (b) Who should I donate to \
-    (c) Rank the grantees by impact (d) Compare work of one grantee versus another \
-    For such questions, do not share any grantee information and just say: Dear human, I am told not to influence you with my biases for such queries. \
-    The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
-    "If the answer is not available in the context information given above, respond: Sorry! I don't have an answer for this"
+    "Do not respond to questions that ask to sort or rank grantees. Do not respond to questions that ask to compare grantees. Similarly, do not respond to questions that ask for advice on which grantee to donate contributions to. Few examples of such questions are (a) Which grantee had the most impact on Gitcoin? (b) Who should I donate to? (c) Rank the grantees by impact (d) Compare work of one grantee versus another? For such questions, do not share any grantee information and just say: Dear human, I am told not to influence you with my biases for such queries. The burden of choosing the public greats and saving the future of your kind lies on you. Choose well! \n"
+    "If the answer is not available in the context information given above, respond: Sorry! I don't have an answer for this. "
     "Given this information, please answer the following question in detail. Where relevant, share the grantee website and Twitter handle. \n: {query_str}\n" 
 )
 qa_template = Prompt(template)
 
-# load from disk
-#index = GPTVectorStoreIndex.load_from_disk('index.json')
+# Load the index from storage
 index = load_index_from_storage(StorageContext.from_defaults(persist_dir="./storage"))
 query_engine = index.as_query_engine(service_context=service_context, text_qa_template=qa_template)
 
+# Set up the Streamlit app interface
 st.title("Gitcoin Citizens Round")
-st.markdown("Hi there! 👋 [The Gitcoin Citizens Round](https://gov.gitcoin.co/t/rewarding-the-community-gitcoin-citizen-round-1/14905) aims to reward people and grassroots projects \
-            that have contributed to Gitcoin’s success, specifically by engaging with the wider ecosystem and community. Gitcoin Citizens Round #1 is **[live](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc)**! \
-            Donations open until June 27th 23:59 UTC.")
-st.markdown("Below, you'll find some links that can give you more information about the grantees on Explorer. \
-            And if you have any questions about the Round or the impact that grantees have made, feel free to ask away! 🙌")
+st.markdown("Hi there! 👋 The Gitcoin Citizens Round aims to reward people and grassroots projects that have contributed to Gitcoin’s success, specifically by engaging with the wider ecosystem and community. Gitcoin Citizens Round #1 is live! Donations open until June 27th 23:59 UTC.")
+st.markdown("Below, you'll find some links that can give you more information about the grantees on Explorer. And if you have any questions about the Round or the impact that grantees have made, feel free to ask away! 🙌")
 
-#col1, col2, col3 = st.columns(3)
-
+# Display links to browse through grantees on Explorer
 with st.expander("See links to browse through grantees on Explorer"):
     st.markdown("[40acres DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-57)")
     st.markdown("[All for Climate DAO](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-53)")
@@ -88,45 +71,27 @@ with st.expander("See links to browse through grantees on Explorer"):
     st.markdown("[ZER8's Gitcoin Citizen Round Application](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-41)")
     st.markdown("[Zuzalu Gitcoin Hype Squad](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc-9)")
 
+# Display an expander section with sample questions and notes
 with st.expander("Not sure what to ask? Try this!"):
-    st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc) is the single source of truth for information on the Citizens Round. \
-                This prototype is built on LLM technology with known limitations. \
-                Refer the grantee information on the above links before making final funding decisions.")
-
-    st.markdown("**Sample questions**: *Tell me what I need to know about the Gitcoin Citizens Round as a donor*,  \
-                *Tell me about the impact has <grantee> created*, *Tell me about all the grantees who have <add a topic you care about>*, \
-                *Write a song about <grantee>*")
+    st.markdown("Note: [Gitcoin Explorer](https://explorer.gitcoin.co/#/round/10/0x984e29dcb4286c2d9cbaa2c238afdd8a191eefbc) is the single source of truth for information on the Citizens Round. "
+                "This prototype is built on LLM technology with known limitations. "
+                "Refer the grantee information on the above links before making final funding decisions.")
+    st.markdown("**Sample questions**: *Tell me what I need to know about the Gitcoin Citizens Round as a donor*, "
+                "*Tell me about the impact has <grantee> created*, *Tell me about all the grantees who have <add a topic you care about>*, "
+                "*Write a song about <grantee>*")
     st.markdown("Also, our buddy here cannot comprehend conversations, yet, and therefore requires each question to be fully formed.")
 
+# Display a section for feedback and suggestions
 st.markdown("For feedback and suggestions, send a DM on Twitter to [Rohit Malekar](https://twitter.com/RohitMalekar)")
 
+# Get user input question
 question = st.text_input("", placeholder="Enter your question here")
 
 if question != "":
+    # Query the question using the query engine
     response = str(query_engine.query(question))
     display = "\n" + response + "\n"
     st.markdown(display)
-    # st.markdown(llm_predictor.last_token_usage)
 
-#    with open("logs/responses.txt", "a") as file:
-#        file.write("\n")
-#       file.write("Question: " + question)
-#        file.write("\n")
-#        file.write("Response: " + response)
-#        file.write("\n")  # Optionally, add a new line after the content
 
-#    logger.debug("\n")
-#    logger.debug("Question: " + question)
-#   logger.debug("\n")
-#    logger.debug("Response: " + response)
-#    logger.debug("\n")  # Optionally, add a new line after the content
-
-#    feedback = collector.st_feedback(
-#       feedback_type="thumbs",
-#       metadata={
-#           "Question": question,
-#           "Reseponse": response
-#        },      
-#    path="logs/thumbs_feedback_" + str(datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")) + ".json"
-#    )
 
