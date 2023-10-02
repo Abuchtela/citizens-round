@@ -1,3 +1,4 @@
 llama-index == 0.8.37
+langchain
 trubrics[streamlit]
 loguru
