@@ -1,0 +1,4 @@
+llama-index
+langchain
+trubrics[streamlit]
+loguru
