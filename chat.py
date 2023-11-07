@@ -9,7 +9,9 @@ from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreI
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Initialize Streamlit app configuration
-st.set_page_config(page_title="Gitcoin Citizens Round - Q&A Bot")
+st.set_page_config(page_title="GrantsScope")
+st.header('GrantsScope')
+st.subheader ('Gitcoin Citizens Round')
 
 # Set up the language model predictor
 llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
