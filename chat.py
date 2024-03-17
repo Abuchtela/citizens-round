@@ -3,7 +3,7 @@ import langchain
 import streamlit as st
 import datetime
 from langchain.llms import OpenAI
-from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, Prompt
+from llama_index.core import StorageContext, load_index_from_storage, LLMPredictor, ServiceContext, Prompt
 
 # Set the OpenAI API key
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
