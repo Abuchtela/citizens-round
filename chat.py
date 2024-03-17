@@ -4,7 +4,6 @@ import streamlit as st
 import datetime
 from langchain.llms import OpenAI
 from llama_index.core import StorageContext, load_index_from_storage, ServiceContext, Prompt
-from llama_index import LLMPredictor
 
 # Set the OpenAI API key
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
@@ -15,8 +14,7 @@ st.header('GrantsScope')
 st.subheader ('Gitcoin Citizens Round')
 
 # Set up the language model predictor
-llm_predictor = LLMPredictor(llm=OpenAI(model_name='text-davinci-003', temperature=0))
-service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
+service_context = ServiceContext.from_defaults(llm=OpenAI(model_name='text-davinci-003', temperature=0))
 
 # Define the custom prompt template for Q&A
 template = (
